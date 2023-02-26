@@ -1,0 +1,35 @@
+.item {
+    background-color:gainsboro;
+    transition: .3s;
+    text-align: center;
+    width: 20px;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.container:hover > :not(:hover){
+    opacity: .4;
+}
+
+.item:hover{
+    transform: scale(1.4);
+}
+
+.container{
+    display: flex;
+    position: relative;
+    top: 50px;
+    margin: auto;
+    width: fit-content;
+    gap: .3rem;;
+    background-color:#bbbbbb;;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.background{
+    background-color: #202020;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
