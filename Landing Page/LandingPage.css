@@ -53,7 +53,8 @@ a:active { text-decoration: none; }
     display: flex;
     overflow-x: auto;
     width: auto;
-    gap: .4rem;
+    gap: .275rem;
+    border-radius: .25rem;
 
     /* Navbar Scrolling Bar hide */
     -ms-overflow-style: none;  /* IE and Edge */
